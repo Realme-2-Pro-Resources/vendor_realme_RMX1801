@@ -15,7 +15,7 @@ cc_prebuilt_library_shared {
 	},
 	target: {
 		android_arm64: {
-			srcs: ["proprietary//lib64/libqti-perfd-client_system.so"],
+			srcs: ["proprietary/system/lib64/libqti-perfd-client_system.so"],
 			shared_libs: ["libcutils", "libutils", "liblog", "vendor.qti.hardware.perf@2.0", "libhidlbase", "libhidltransport", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
@@ -31,7 +31,7 @@ cc_prebuilt_library_shared {
 	},
 	target: {
 		android_arm64: {
-			srcs: ["proprietary//lib64/libqti_performance.so"],
+			srcs: ["proprietary/system/lib64/libqti_performance.so"],
 			shared_libs: ["libnativehelper", "liblog", "libcutils", "libutils", "libbase", "vendor.qti.hardware.iop@2.0", "libhidlbase", "libhidltransport", "libqti-perfd-client_system", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
@@ -46118,13 +46118,13 @@ android_app_import {
 dex_import {
 	name: "audiosphere",
 	owner: "realme",
-	jars: ["proprietary/framework/audiosphere.jar"],
+	jars: ["proprietary/system/framework/audiosphere.jar"],
 }
 
 dex_import {
 	name: "tcmclient",
 	owner: "realme",
-	jars: ["proprietary/framework/tcmclient.jar"],
+	jars: ["proprietary/system/framework/tcmclient.jar"],
 }
 
 dex_import {
