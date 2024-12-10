@@ -2935,6 +2935,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so",
             ],
             shared_libs: [
+                "liblog",
                 "libdl",
                 "libcutils",
                 "libmmcamera_dbg",
@@ -2948,6 +2949,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so",
             ],
             shared_libs: [
+                "liblog",
                 "libdl",
                 "libcutils",
                 "libmmcamera_dbg",
@@ -5461,6 +5463,7 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "32",
+    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -59521,6 +59524,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so",
             ],
             shared_libs: [
+                "liblog",
                 "libdl",
                 "libcutils",
                 "libstdc++_vendor",
@@ -62379,6 +62383,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libmmcamera_pdaf.so",
             ],
             shared_libs: [
+                "liblog",
                 "libcutils",
                 "libutils",
                 "libmmcamera_dbg",
@@ -62406,6 +62411,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libmmcamera_pdafcamif.so",
             ],
             shared_libs: [
+                "liblog",
                 "libcutils",
                 "libutils",
                 "libmmcamera_dbg",
