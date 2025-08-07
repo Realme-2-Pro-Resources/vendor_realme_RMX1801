@@ -2795,6 +2795,7 @@ PRODUCT_PACKAGES += \
     libsystem_health_mon \
     libthermalfeature \
     libtime_genoff \
+    libtinyxml \
     libtrustedapploader \
     libtzdrmgenprov \
     libwms \
